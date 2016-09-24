@@ -12,6 +12,8 @@ class Task( models.Model ):
   description = models.TextField()
   is_archived = models.BooleanField(default=False)
   total_time = models.DecimalField(max_digits=5,decimal_places=2)
+  created_at = models.DateTimeField(auto_now_add=True,blank=True)
+  modified_at = models.DateTimeField(auto_now=True,blank=True)
 #-------------------------------------------------------------------#
 # Simple Timelog Model                                              #
 #-------------------------------------------------------------------#
