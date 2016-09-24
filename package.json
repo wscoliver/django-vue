@@ -1,0 +1,49 @@
+{
+  "name": "django-vue",
+  "version": "1.0.0",
+  "description": "Django Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wscoliver/django-vue.git"
+  },
+  "keywords": [
+    "django",
+    "vuejs"
+  ],
+  "author": "Oliver Wee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wscoliver/django-vue/issues"
+  },
+  "homepage": "https://github.com/wscoliver/django-vue#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-styl": "^2.1.0",
+    "momentjs": "^1.1.15",
+    "pug": "^2.0.0-alpha7",
+    "random-js": "^1.0.8",
+    "vue": "^1.0.24",
+    "vue-moment": "^2.0.1",
+    "vue-resource": "^0.7.2",
+    "vueify": "^8.5.2"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-vueify": "^1.0.1",
+    "stylus": "^0.54.5"
+  }
+}
